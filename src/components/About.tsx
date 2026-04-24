@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import StatCounter from './StatCounter';
-import aboutImage from '../assets/about-image.jpg';
 
 export default function About() {
   return (
@@ -44,7 +43,7 @@ export default function About() {
           >
             <div className="relative z-10 rounded-[32px] overflow-hidden shadow-2xl border border-black/5">
               <img 
-                src={aboutImage} 
+                src="/about-image.jpg" 
                 alt="Treinamento Grupo Potencial"
                 className="w-full aspect-square object-cover"
               />

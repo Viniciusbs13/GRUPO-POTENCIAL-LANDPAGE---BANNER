@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { ArrowRight, Star } from 'lucide-react';
-import heroVideo from '../assets/hero-video.mp4';
 
 const logos = [
   { name: 'ISO 9001', svg: <div className="flex items-center gap-2 font-display font-bold text-slate-400 opacity-50"><div className="w-8 h-8 rounded-full border-2 border-slate-400 flex items-center justify-center text-[10px]">ISO</div>9001</div> },
@@ -79,7 +78,7 @@ export default function Hero() {
                 playsInline
                 className="w-full h-full object-contain mix-blend-multiply"
               >
-                <source src={heroVideo} type="video/mp4" />
+                <source src="/hero-video.mp4" type="video/mp4" />
               </video>
             </div>
           </motion.div>
